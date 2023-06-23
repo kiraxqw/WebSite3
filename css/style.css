@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #44535e;
+}
+.box{
+    width: 90%;
+    margin: 0 auto;
+    background: #D4DBE2;
+}
+.block_1{
+    grid-area: block1;
+    background: black;
+    text-align: center;
+    color: white;
+    padding-top: 0px;
+}
+header{
+    grid-area: header;
+}
+nav{
+    width: 99%;
+    height: 80px;
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+nav>p{
+    font-size: 17px;
+    color:  rgb(74, 128, 198);
+}
+.vse{
+    position: relative;
+   z-index: 1;
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.header_b1{
+    width: 50%;
+    height: 700px;
+    background-size: cover;
+}
+.header_b1>img{
+    width: 100%;
+    height: 100%;
+}
+.header_b2{
+    width: 50%;
+    height: 700px;
+    background: rgb(28, 80, 158);
+}
+.but{
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 50px;
+    font-size: 15px;
+    margin-top: 60px;
+    border: 1px solid rgb(56, 112, 197);
+}
+.block_2{
+    grid-area: block2;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.b2_box1{
+    width: 30%;
+    height: 230px;
+}
+.b2_box2{
+    width: 30%;
+    height: 230px;
+}
+.b2_box3{
+    width: 30%;
+}
+ .b2_box1>h1{
+    font-size: 35px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: cursive;
+}
+.b2_box2>h1{
+    font-size: 35px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: cursive;
+}
+.b2_box3>h1{
+    font-size: 35px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: cursive;
+}
+hr{
+    width: 90%;
+    color: grey;
+   
+}
+
+
+/*это идет после твоих двух блоков*/
+.block_3{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.text{
+    width: 30%;
+    height: 450px;
+    margin-left: -20px;
+}
+.img{
+width: 55%;
+height: 500px;
+background: url(../img/img2.png);
+background-size: cover;
+margin-left: -90px;
+}
+.main{
+    width: 100%;
+    height: 1300px;
+    margin: 0 auto;
+}
+.songs{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-left: 1%;
+}
+.text_main{
+    text-align: center;
+}
+.text_main>h4{
+    text-decoration: line-through;
+}
+.song{
+    width: 32%;
+    height: 200px;
+    text-align: center;
+}
+.song1{
+    width: 90%;
+    height: 300px;
+    background: url(../img/Smells_Like_Teen_Spirit.jpg);
+    background-size: 100% 100%;
+}
+.song1:hover{
+    width: 100%;
+    height: 350px;
+    transition: 2s;
+}
+.song2{
+    width: 90%;
+    height: 300px;
+    background: url(../img/Stream_The_Man_Who_Sold_The_World.jpg);
+    background-size: 100% 100%;
+}
+.song2:hover{
+    width: 100%;
+    height: 350px;
+    transition: 2s;
+}
+.song3{
+    width: 90%;
+    height: 300px;
+    background: url(../img/Come_As_You_Are.jpg);
+    background-size: 100% 100%;
+}
+.song3:hover{
+    width: 100%;
+    height: 350px;
+    transition: 2s;
+}
+.group_img{
+    width: 100%;
+    height: 400px;
+    background: url(../img/Nirvana.jpg);
+    background-size: 100% 100%;
+}
+.but_mus{
+    width: 80%;
+    height: 50px;
+    background: black;
+    color: white;
+}
+.about_group{
+    width: 100%;
+    height: 700px;
+}
+.text_aboutgroup{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+}
+.about_group>h1{
+    width: 45%;
+}
+.p{
+    width: 50%;
+    height: 150px;
+    margin-top: 2%;
+    font-size: 18px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-basis: 25px;
+    background: black;
+    text-align: center;
+    font-size: 10px;
+}
+.box_header_1{
+    border: 1px solid black;
+    color: whitesmoke;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.h2{
+    padding: 20px;
+}
+.h3{
+ padding: 10px;
+}
+.h4{
+    color: rgba(255,255,255,0.5);
+}
+.main2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+}
+.Photo_1{
+    width: 45%;
+    height: 600px;
+}
+.img2{
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+.main_box{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+section{
+    width: 100%;
+    height: 600px;
+    background: url(../img/nirvana3.png);
+    text-align: center;
+}
+.spotify_share{
+    width: 45%;
+    height: 600px;
+}
+.Spotify{
+    width: 450px;
+    height: 250px;
+    background: black;
+    color: white;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.Share{
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 450px;
+    height: 100px;
+    background: black;
+    color: white;
+    font-size: 15px;
+}
+.display_share{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+footer{
+    margin-top: 40px;
+    background: black;
+    color: whitesmoke;
+    width: 100%;
+    height: 80px;
+}
+.footer2{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+footer p{
+    color: rgba(255,255,255,0.5);
+    margin-top: 30px;
+}
+
+.h1, .h2, .h3, .h4, .p2{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
